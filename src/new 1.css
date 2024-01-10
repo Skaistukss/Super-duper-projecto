@@ -1,0 +1,75 @@
+table, th, td, caption{
+	border-style: outset;
+	border-width: 2px;
+	border-color: #ee82ee;
+	border-radius: 3px;
+	outline-style: solid;
+	outline-color: pink;
+	outline-width: thick;
+	 background-color: white;
+	 position: relative;
+}
+.background{
+	background-image: url("img/kawaii-cat-sad-cat-2560x1080-10077.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	min-width: 100%;
+}
+caption{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: system-ui;
+  color:#431E2A;
+}
+
+tr{
+	text-align: center;
+	font-family: garamond;
+}
+table{
+  width: 40%;
+  margin: 20px auto; 
+  border-collapse: collapse;
+  float: left;
+  margin-right: 40px; /* Adds space between the table and image */
+   flex: 1; /* The table takes up available space */
+}
+
+th, td {
+  font-family: system-ui;
+  font-size: 25px;
+  color:#4b1426;
+  transition: background-color 0.2s;
+}
+
+img{
+	height: 300px;
+  display: block;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #F390B1;
+  border-width: thick;
+  float: right;
+  flex: 0.4;
+  width: 300px;
+  object-fit: fill;
+}
+
+.content {
+  display: flex;
+}
+
+
+td:hover{
+	background-color:#EDC4D1;
+}
+
+img:hover{
+	opacity: 0.8;
+	 box-shadow: 5px 7px 50px black;
+}
